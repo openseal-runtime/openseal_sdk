@@ -1,0 +1,10 @@
+[package]
+name = "openseal_sdk"
+version = "0.1.0"
+edition = "2021"
+description = "SDK oficial para criar módulos bare-metal nativos para o OpenSeal Runtime"
+license = "MIT"
+
+[dependencies]
+openseal_sdk_macros = { path = "macros", version = "0.1.0" }
+mlua = { version = "0.11.6", features = ["luau"] }
