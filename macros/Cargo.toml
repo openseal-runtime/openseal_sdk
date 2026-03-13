@@ -2,7 +2,12 @@
 name = "openseal_sdk_macros"
 version = "0.1.0"
 edition = "2021"
-description = "Motor de FFI e macros procedurais do OpenSeal"
+authors = ["Yan"]
+description = "FFI engine and procedural macros for OpenSeal"
+license = "MIT"
+repository = "https://github.com/openseal-runtime/openseal_sdk"
+keywords = ["macros", "ffi", "proc-macro", "openseal"]
+categories = ["development-tools"]
 
 [lib]
 proc-macro = true
