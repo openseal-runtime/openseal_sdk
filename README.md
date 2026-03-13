@@ -40,7 +40,7 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-openseal_sdk = { path = "../openseal_sdk" }
+openseal_sdk = "0.1.0"
 ```
 
 Example module:
