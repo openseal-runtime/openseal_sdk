@@ -10,5 +10,5 @@ keywords = ["sdk", "runtime", "lua", "luau", "bare-metal"]
 categories = ["development-tools", "api-bindings"]
 
 [dependencies]
-openseal_sdk_macros = { path = "macros", version = "0.1.0" }
+openseal_sdk_macros = { path = "./macros", version = "0.1.0" }
 mlua = { version = "0.11.6", features = ["luau"] }
