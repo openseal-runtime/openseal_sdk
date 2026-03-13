@@ -2,8 +2,12 @@
 name = "openseal_sdk"
 version = "0.1.0"
 edition = "2021"
-description = "SDK oficial para criar módulos bare-metal nativos para o OpenSeal Runtime"
+authors = ["Yan"]
+description = "Official SDK for creating native bare-metal modules for the OpenSeal Runtime"
 license = "MIT"
+repository = "https://github.com/openseal-runtime/openseal_sdk"
+keywords = ["sdk", "runtime", "lua", "luau", "bare-metal"]
+categories = ["development-tools", "api-bindings"]
 
 [dependencies]
 openseal_sdk_macros = { path = "macros", version = "0.1.0" }
